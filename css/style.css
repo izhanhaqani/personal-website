@@ -16,8 +16,11 @@ h1 {
 
 hr {
   margin: 0;
-  border-style: solid;
+  border-style: dotted none none none;
+  border-width: 10px;
   color: #0c907d;
+  width: 10%;
+  margin: auto;
 }
 
 div {
@@ -25,17 +28,26 @@ div {
 }
 
 /*--------------TOP CONTAINER---------------*/
-
 .top-container {
   background-color: #f2f4b2;
+  position: relative;
+  text-align: center;
 }
 
 .name {
   color: #132238;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .sub-name {
   color: #132238;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .top-cloud {
@@ -48,6 +60,7 @@ div {
 .bottom-cloud {
   position: absolute;
   left: 400px;
+  bottom: 300px;
 }
 
 .mountain {
@@ -55,41 +68,55 @@ div {
   display: block;
   left: 400px;
 }
-
 .pro {
   text-decoration: underline;
   color: #0c907d;
 }
 
 /*--------------MIDDLE CONTAINER---------------*/
-
 .middle-container {
   background-color: #cce490;
+  display: flow-root;
 }
 
 .profile-picture {
   border-radius: 50%;
-  margin-top: 50px;
+  margin: 50px auto auto auto;
   border: 7px;
   border-style: solid;
   border-color: #132238;
 }
 
+.profile {
+  width: 50%;
+  margin: 30px auto 30px auto;
+  line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
 .education-icon {
   width: 15%;
   height: auto;
-  border-radius: 50%
-  border: 7px;
-  border-color: #0d627a;
+  position: flex;
+  float: left;
+  padding-right: 30px;
 }
 
 .building-icon {
   width: 15%;
   height: auto;
+  position: flex;
+  float: left;
+  padding-right: 30px;
 }
 
 /*--------------BOTTOM CONTAINER---------------*/
-
 .bottom-container {
   background-color: #cce490;
   margin: 0;
@@ -97,15 +124,15 @@ div {
 }
 
 .footer-link {
-position: relative;
-padding: 10px;
-left: 565px;
+  position: relative;
+  padding: 10px;
+  left: 565px;
 }
 
 .copyright {
-position: relative;
-padding-top: 30px;
-left: 380px;
+  position: relative;
+  padding-top: 30px;
+  left: 380px;
 }
 
 /*.bottom-container {
