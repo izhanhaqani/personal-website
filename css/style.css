@@ -116,6 +116,15 @@ div {
   padding-right: 30px;
 }
 
+.outlook-icon {
+  position: relative;
+  display: inline;
+  width: 3%;
+  height: 3%;
+  padding: 10px;
+  margin: auto;
+}
+
 /*--------------BOTTOM CONTAINER---------------*/
 .bottom-container {
   background-color: #cce490;
@@ -135,9 +144,19 @@ div {
   left: 380px;
 }
 
-/*.bottom-container {
-  background-color: red;
-  height: 200px;
-  width: 200px;
+.icon {
+  position: relative;
+  display: inline;
+  width: 3%;
+  height: 3%;
+  padding: 10px;
+  left: 585px;
 }
-*/
+
+.copyright {
+  position: relative;
+  padding: 10px;
+  display: inline;
+  left: 410px;
+  margin-top: 70px;
+}
