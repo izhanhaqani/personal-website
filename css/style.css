@@ -32,41 +32,53 @@ div {
   background-color: #f2f4b2;
   position: relative;
   text-align: center;
+  height: auto;
 }
 
 .name {
   color: #132238;
   position: absolute;
+  display: block;
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+
 }
 
 .sub-name {
   color: #132238;
   position: absolute;
-  top: 25%;
+  display: block;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+
 }
 
 .top-cloud {
   position: relative;
-  left: 220px;
-  bottom: 50px;
-  padding-top: 70px;
+  display: block;
+  margin: auto;
+  padding-top: 30px;
+  padding-left: 500px;
+
 }
 
 .bottom-cloud {
-  position: absolute;
-  left: 400px;
-  bottom: 300px;
+  position: relative;
+  margin: auto;
+  display: block;
+  padding-top: 50px;
+  padding-right: 500px;
 }
 
 .mountain {
   position: relative;
   display: block;
-  left: 400px;
+  margin: auto;
+  padding-top: 30px;
 }
 .pro {
   text-decoration: underline;
@@ -129,7 +141,7 @@ div {
 .bottom-container {
   background-color: #cce490;
   margin: 0;
-  display: flex;
+  display: flow-root;
 }
 
 .footer-link {
