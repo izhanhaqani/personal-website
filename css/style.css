@@ -144,31 +144,14 @@ div {
   display: flow-root;
 }
 
-.footer-link {
-  position: relative;
-  padding: 10px;
-  left: 565px;
-}
-
 .copyright {
-  position: relative;
-  padding-top: 30px;
-  left: 380px;
+  padding: 10px;
+  margin: auto;
 }
 
 .icon {
-  position: relative;
-  display: inline;
   width: 3%;
   height: 3%;
   padding: 10px;
-  left: 585px;
-}
-
-.copyright {
-  position: relative;
-  padding: 10px;
-  display: inline;
-  left: 410px;
-  margin-top: 70px;
+  margin: auto;
 }
